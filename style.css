@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    font-family: Inter, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+  }
+  
+  #container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 18px; 
+       
+  }  
+  
+  
+  h2 {
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+  
+  /* Add Student Section Styles */
+  #addStudentForm label,
+  #addStudentForm input {
+    display: block;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+  }
+  
+  #addStudentForm input {
+    width: 30%;
+    height: 30px;
+    padding: 8px;
+    margin: 20px 20px 20px 2px;
+    border: 1px solid #ffffff;
+    display: inline;    
+  }
+  
+  #addButton {
+    margin: 20px 20px 20px 7px;
+    padding: 8px 16px;
+    width: 40%;
+    height: 45px;
+    font-size: 18px;
+  }
+  
+  /* Search Student Section Styles */
+  #searchInput {
+    width: 98%;
+    height: 30px;
+    padding: 8px;
+    margin: 20px 20px 20px 10px;
+    border: 1px solid #ffffff;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+  }
+  
+  /* Student Table Section Styles */
+  
+  #studentTable {
+    width: 100%;
+    margin: 20px 20px 0px 10px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  #studentTable th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ffffff;
+  }
+
+  
+  #studentTable td {
+    padding: 10px;
+    text-align: center;
+    border-left: 1px solid #ffffff;    
+  }  
+  
+  #studentTable th {
+    background-color: black;
+  }
+  
+  #studentTable td:last-child {
+    border-left: none;
+    border-right: 1px solid #ffffff;
+  }
+  
+    
+  .actions {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .editButton,
+  .deleteButton {
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: white;
+    
+  }
+  
+  .editButton:hover,
+  .deleteButton:hover {
+    border: 0.5px solid #ffffff;
+  }
+  
+  .editButton:focus,
+  .deleteButton:focus {
+    outline: none;
+  }
+  
+  .editIcon,
+  .deleteIcon {
+    font-size: 16px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    #studentTable td:last-child {
+      white-space: normal;
+    }
+  }
+  
+  
