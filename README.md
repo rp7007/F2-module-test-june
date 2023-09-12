@@ -1,5 +1,4 @@
-# F2-module-test-june
-Student Management System
+# Student Management System
 
 Project Deployment Link: https://f2-module-test-june.vercel.app/
 
